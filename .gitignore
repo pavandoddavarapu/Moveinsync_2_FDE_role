@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+ENV/
+
+# Large raw cache files (optional, keeping clean)
+# raw_reviews.csv can be kept or tracked depending on preference

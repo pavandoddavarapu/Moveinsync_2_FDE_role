@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoveInSync - Play Store Rating Intelligence Dashboard</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --primary-accent: #2b6cb0;
+            --bg: #f7fafc;
+            --card-bg: #ffffff;
+            --text-dark: #2d3748;
+            --text-muted: #718096;
+            --border: #e2e8f0;
+            --danger: #e53e3e;
+            --warning: #dd6b20;
+            --success: #38a169;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: var(--bg); color: var(--text-dark); padding: 24px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--border); }
+        h1 { font-size: 24px; color: var(--primary); font-weight: 700; }
+        .header-sub { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+        .status-pill { padding: 6px 14px; border-radius: 20px; font-weight: 700; font-size: 12px; letter-spacing: 0.5px; }
+        .badge-alert { background-color: #fed7d7; color: var(--danger); border: 1px solid var(--danger); }
+        .badge-success { background-color: #c6f6d5; color: var(--success); border: 1px solid var(--success); }
+        .alert-banner { background-color: #fff5f5; border-left: 5px solid #38a169; padding: 14px 18px; border-radius: 6px; margin-bottom: 24px; font-size: 14px; font-weight: 600; color: #742a2a; }
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin-bottom: 24px; }
+        .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .card-label { font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+        .card-value { font-size: 28px; font-weight: 800; color: var(--primary); }
+        .card-meta { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+        .section-title { font-size: 18px; color: var(--primary); font-weight: 700; margin: 24px 0 12px 0; display: flex; align-items: center; justify-content: space-between; }
+        table { width: 100%; border-collapse: collapse; background: var(--card-bg); border-radius: 8px; overflow: hidden; border: 1px solid var(--border); margin-bottom: 24px; }
+        th { background: #edf2f7; color: var(--primary); text-align: left; padding: 12px 14px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid var(--border); }
+        td { padding: 12px 14px; font-size: 13px; border-bottom: 1px solid var(--border); }
+        tr:hover { background-color: #f8fafc; }
+        .gain-highlight { font-weight: 800; color: var(--primary-accent); }
+        .text-danger { color: var(--danger); font-weight: 700; }
+        .text-normal { color: var(--text-dark); }
+        .formula-box { background: #ebf8ff; border: 1px solid #bee3f8; border-radius: 6px; padding: 12px 16px; font-size: 12px; color: #2b6cb0; margin-bottom: 24px; }
+        footer { text-align: center; font-size: 12px; color: var(--text-muted); margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>MoveInSync (com.moveinsync.ets)</h1>
+                <div class="header-sub">Production Play Store Rating Monitoring & Continuous Diagnosis Dashboard | App v12.19.0</div>
+            </div>
+            <div class="status-pill badge-success">METRICS HEALTHY</div>
+        </header>
+
+        <div class="alert-banner">
+            HEALTHY: Last 30-day average rating is 3.77 (change: +0.01 vs prior 90-day avg 3.76).
+        </div>
+
+        <div class="grid-4">
+            <div class="card">
+                <div class="card-label">Play Store Official Score</div>
+                <div class="card-value">4.6388 ★</div>
+                <div class="card-meta">114,880 total lifetime ratings</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Last 30 Days Rating</div>
+                <div class="card-value">3.77 ★</div>
+                <div class="card-meta">Based on 243 reviews (Delta: +0.01)</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Prior 90 Days Baseline</div>
+                <div class="card-value">3.76 ★</div>
+                <div class="card-meta">Alert threshold: Drop &gt; 0.10 pts</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Developer Reply SLA</div>
+                <div class="card-value">54.6%</div>
+                <div class="card-meta">Median reply time: 0.8 days</div>
+            </div>
+        </div>
+
+        <div class="formula-box">
+            <strong>Rating-Impact Simulation Formula:</strong> Theme gain is scaled from the scraped review sample to the 114,874 rating population via histogram weighting: 
+            <code>&Delta;Stars = &Sigma; (4 - s) &times; (H_s / N_s)</code>. Simulated rating = <code>(Total Stars + &Delta;Stars) / Total Ratings</code>. Rank reflects true Play Store rating points gained, not raw complaint counts.
+        </div>
+
+        <div class="section-title">
+            <span>Theme Rating-Impact Ranking (Ranked by Simulated Gain)</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Journey Step / Theme</th>
+                    <th>1-2★ Count</th>
+                    <th>1-2★ Share</th>
+                    <th>Helpful Votes</th>
+                    <th>Simulated Rating Gain</th>
+                    <th>Simulated New Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><strong>#1</strong></td>
+            <td>9. Billing / policy / other</td>
+            <td>3,900</td>
+            <td>51.9%</td>
+            <td>640</td>
+            <td class="gain-highlight">+0.1145</td>
+            <td><strong>4.7532</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#2</strong></td>
+            <td>4. Pickup time / ETA / live tracking accuracy</td>
+            <td>1,110</td>
+            <td>14.8%</td>
+            <td>801</td>
+            <td class="gain-highlight">+0.0312</td>
+            <td><strong>4.6698</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#3</strong></td>
+            <td>7. App stability (crashes, slow, notifications not arriving, battery/GPS)</td>
+            <td>591</td>
+            <td>7.9%</td>
+            <td>314</td>
+            <td class="gain-highlight">+0.0164</td>
+            <td><strong>4.6550</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#4</strong></td>
+            <td>2. Booking a ride (self-booking fails, no slots, cutoff issues)</td>
+            <td>483</td>
+            <td>6.4%</td>
+            <td>359</td>
+            <td class="gain-highlight">+0.0132</td>
+            <td><strong>4.6519</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#5</strong></td>
+            <td>1. Login / onboarding / roster or shift sync</td>
+            <td>471</td>
+            <td>6.3%</td>
+            <td>282</td>
+            <td class="gain-highlight">+0.0131</td>
+            <td><strong>4.6518</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#6</strong></td>
+            <td>6. Cab/driver behaviour and punctuality (late, no-show, rude)</td>
+            <td>367</td>
+            <td>4.9%</td>
+            <td>206</td>
+            <td class="gain-highlight">+0.0107</td>
+            <td><strong>4.6493</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#7</strong></td>
+            <td>3. Cab/shuttle assignment and route planning (wrong route, long detours)</td>
+            <td>320</td>
+            <td>4.3%</td>
+            <td>233</td>
+            <td class="gain-highlight">+0.0092</td>
+            <td><strong>4.6479</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#8</strong></td>
+            <td>8. Issue raising and support (no response, no resolution, loop through ops)</td>
+            <td>230</td>
+            <td>3.1%</td>
+            <td>146</td>
+            <td class="gain-highlight">+0.0068</td>
+            <td><strong>4.6454</strong></td>
+        </tr>
+        
+        <tr>
+            <td><strong>#9</strong></td>
+            <td>5. Boarding and safety (OTP, driver verification, SOS, safety concerns)</td>
+            <td>44</td>
+            <td>0.6%</td>
+            <td>13</td>
+            <td class="gain-highlight">+0.0012</td>
+            <td><strong>4.6399</strong></td>
+        </tr>
+        
+            </tbody>
+        </table>
+
+        <div class="section-title">
+            <span>App Version Trajectory & Regression Monitor</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Version</th>
+                    <th>Review Volume</th>
+                    <th>Average Score</th>
+                    <th>1-2★ Share (%)</th>
+                    <th>Latest Review Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><strong>v12.19.0</strong> (Current)</td>
+            <td>105</td>
+            <td><strong>3.62</strong></td>
+            <td><span class="text-danger">34.3%</span></td>
+            <td>2026-10-11</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v12.15.0</strong></td>
+            <td>83</td>
+            <td><strong>4.04</strong></td>
+            <td><span class="text-normal">22.9%</span></td>
+            <td>2026-10-07</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v12.4</strong></td>
+            <td>140</td>
+            <td><strong>3.59</strong></td>
+            <td><span class="text-danger">32.1%</span></td>
+            <td>2026-10-07</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v12.18.1</strong></td>
+            <td>94</td>
+            <td><strong>3.90</strong></td>
+            <td><span class="text-normal">26.6%</span></td>
+            <td>2026-10-05</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v12.11.2</strong></td>
+            <td>144</td>
+            <td><strong>3.98</strong></td>
+            <td><span class="text-normal">22.9%</span></td>
+            <td>2026-09-30</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v12.18.0</strong></td>
+            <td>65</td>
+            <td><strong>4.11</strong></td>
+            <td><span class="text-normal">20.0%</span></td>
+            <td>2026-09-24</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v11.4.34</strong></td>
+            <td>181</td>
+            <td><strong>3.86</strong></td>
+            <td><span class="text-normal">25.4%</span></td>
+            <td>2026-09-23</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v12.17.0</strong></td>
+            <td>141</td>
+            <td><strong>3.76</strong></td>
+            <td><span class="text-normal">29.8%</span></td>
+            <td>2026-09-23</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v11.0.2</strong></td>
+            <td>139</td>
+            <td><strong>3.60</strong></td>
+            <td><span class="text-danger">33.1%</span></td>
+            <td>2026-09-21</td>
+        </tr>
+        
+        <tr>
+            <td><strong>v11.5.21</strong></td>
+            <td>211</td>
+            <td><strong>3.84</strong></td>
+            <td><span class="text-normal">27.0%</span></td>
+            <td>2026-09-11</td>
+        </tr>
+        
+            </tbody>
+        </table>
+
+        <footer>
+            Generated automatically by <code>run.py</code>. To refresh ratings and re-run monitoring: <code>python run.py</code>.
+        </footer>
+    </div>
+</body>
+</html>
+    

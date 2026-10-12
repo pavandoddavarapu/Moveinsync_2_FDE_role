@@ -1,0 +1,503 @@
+{
+  "app_id": "com.moveinsync.ets",
+  "total_ratings": 114874,
+  "current_rating": 4.6389,
+  "histogram": [
+    7316,
+    839,
+    1224,
+    7253,
+    98242
+  ],
+  "total_scraped_reviews": 24315,
+  "impact_table": [
+    {
+      "theme": "9. Billing / policy / other",
+      "total_reviews": 18427,
+      "low_star_reviews": 3900,
+      "share_of_low_stars_pct": 51.89,
+      "helpful_votes_low": 640,
+      "share_of_helpful_votes_pct": 21.38,
+      "delta_stars_scaled": 13156.7,
+      "simulated_rating_gain": 0.1145,
+      "simulated_new_rating": 4.7534
+    },
+    {
+      "theme": "4. Pickup time / ETA / live tracking accuracy",
+      "total_reviews": 2148,
+      "low_star_reviews": 1110,
+      "share_of_low_stars_pct": 14.77,
+      "helpful_votes_low": 801,
+      "share_of_helpful_votes_pct": 26.75,
+      "delta_stars_scaled": 3580.6,
+      "simulated_rating_gain": 0.0312,
+      "simulated_new_rating": 4.6701
+    },
+    {
+      "theme": "7. App stability (crashes, slow, notifications not arriving, battery/GPS)",
+      "total_reviews": 804,
+      "low_star_reviews": 591,
+      "share_of_low_stars_pct": 7.86,
+      "helpful_votes_low": 314,
+      "share_of_helpful_votes_pct": 10.49,
+      "delta_stars_scaled": 1882.4,
+      "simulated_rating_gain": 0.0164,
+      "simulated_new_rating": 4.6553
+    },
+    {
+      "theme": "2. Booking a ride (self-booking fails, no slots, cutoff issues)",
+      "total_reviews": 858,
+      "low_star_reviews": 483,
+      "share_of_low_stars_pct": 6.43,
+      "helpful_votes_low": 359,
+      "share_of_helpful_votes_pct": 11.99,
+      "delta_stars_scaled": 1519.8,
+      "simulated_rating_gain": 0.0132,
+      "simulated_new_rating": 4.6521
+    },
+    {
+      "theme": "1. Login / onboarding / roster or shift sync",
+      "total_reviews": 587,
+      "low_star_reviews": 471,
+      "share_of_low_stars_pct": 6.27,
+      "helpful_votes_low": 282,
+      "share_of_helpful_votes_pct": 9.42,
+      "delta_stars_scaled": 1506.6,
+      "simulated_rating_gain": 0.0131,
+      "simulated_new_rating": 4.652
+    },
+    {
+      "theme": "6. Cab/driver behaviour and punctuality (late, no-show, rude)",
+      "total_reviews": 655,
+      "low_star_reviews": 367,
+      "share_of_low_stars_pct": 4.88,
+      "helpful_votes_low": 206,
+      "share_of_helpful_votes_pct": 6.88,
+      "delta_stars_scaled": 1225.2,
+      "simulated_rating_gain": 0.0107,
+      "simulated_new_rating": 4.6496
+    },
+    {
+      "theme": "3. Cab/shuttle assignment and route planning (wrong route, long detours)",
+      "total_reviews": 432,
+      "low_star_reviews": 320,
+      "share_of_low_stars_pct": 4.26,
+      "helpful_votes_low": 233,
+      "share_of_helpful_votes_pct": 7.78,
+      "delta_stars_scaled": 1059.5,
+      "simulated_rating_gain": 0.0092,
+      "simulated_new_rating": 4.6481
+    },
+    {
+      "theme": "8. Issue raising and support (no response, no resolution, loop through ops)",
+      "total_reviews": 272,
+      "low_star_reviews": 230,
+      "share_of_low_stars_pct": 3.06,
+      "helpful_votes_low": 146,
+      "share_of_helpful_votes_pct": 4.88,
+      "delta_stars_scaled": 777.5,
+      "simulated_rating_gain": 0.0068,
+      "simulated_new_rating": 4.6457
+    },
+    {
+      "theme": "5. Boarding and safety (OTP, driver verification, SOS, safety concerns)",
+      "total_reviews": 132,
+      "low_star_reviews": 44,
+      "share_of_low_stars_pct": 0.59,
+      "helpful_votes_low": 13,
+      "share_of_helpful_votes_pct": 0.43,
+      "delta_stars_scaled": 141.5,
+      "simulated_rating_gain": 0.0012,
+      "simulated_new_rating": 4.6401
+    }
+  ],
+  "recent_monthly": [
+    {
+      "year_month_str": "2024-11",
+      "total_reviews": 221,
+      "avg_score": 3.7058823529411766,
+      "low_star_share_pct": 29.411764705882355
+    },
+    {
+      "year_month_str": "2024-12",
+      "total_reviews": 209,
+      "avg_score": 3.77511961722488,
+      "low_star_share_pct": 27.27272727272727
+    },
+    {
+      "year_month_str": "2025-01",
+      "total_reviews": 290,
+      "avg_score": 3.413793103448276,
+      "low_star_share_pct": 37.58620689655172
+    },
+    {
+      "year_month_str": "2025-02",
+      "total_reviews": 229,
+      "avg_score": 3.462882096069869,
+      "low_star_share_pct": 36.681222707423586
+    },
+    {
+      "year_month_str": "2025-03",
+      "total_reviews": 226,
+      "avg_score": 3.7964601769911503,
+      "low_star_share_pct": 26.10619469026549
+    },
+    {
+      "year_month_str": "2025-04",
+      "total_reviews": 228,
+      "avg_score": 3.8421052631578947,
+      "low_star_share_pct": 26.31578947368421
+    },
+    {
+      "year_month_str": "2025-05",
+      "total_reviews": 257,
+      "avg_score": 3.7976653696498053,
+      "low_star_share_pct": 28.404669260700388
+    },
+    {
+      "year_month_str": "2025-06",
+      "total_reviews": 301,
+      "avg_score": 3.5614617940199333,
+      "low_star_share_pct": 33.222591362126245
+    },
+    {
+      "year_month_str": "2025-07",
+      "total_reviews": 293,
+      "avg_score": 3.7781569965870307,
+      "low_star_share_pct": 25.938566552901023
+    },
+    {
+      "year_month_str": "2025-08",
+      "total_reviews": 240,
+      "avg_score": 3.6708333333333334,
+      "low_star_share_pct": 30.416666666666664
+    },
+    {
+      "year_month_str": "2025-09",
+      "total_reviews": 205,
+      "avg_score": 3.5170731707317073,
+      "low_star_share_pct": 33.170731707317074
+    },
+    {
+      "year_month_str": "2025-10",
+      "total_reviews": 297,
+      "avg_score": 3.791245791245791,
+      "low_star_share_pct": 26.936026936026934
+    },
+    {
+      "year_month_str": "2025-11",
+      "total_reviews": 160,
+      "avg_score": 3.6875,
+      "low_star_share_pct": 30.0
+    },
+    {
+      "year_month_str": "2025-12",
+      "total_reviews": 196,
+      "avg_score": 3.836734693877551,
+      "low_star_share_pct": 27.55102040816326
+    },
+    {
+      "year_month_str": "2026-01",
+      "total_reviews": 211,
+      "avg_score": 3.7677725118483414,
+      "low_star_share_pct": 28.436018957345972
+    },
+    {
+      "year_month_str": "2026-02",
+      "total_reviews": 207,
+      "avg_score": 3.739130434782609,
+      "low_star_share_pct": 29.951690821256037
+    },
+    {
+      "year_month_str": "2026-03",
+      "total_reviews": 197,
+      "avg_score": 3.979695431472081,
+      "low_star_share_pct": 23.3502538071066
+    },
+    {
+      "year_month_str": "2026-04",
+      "total_reviews": 292,
+      "avg_score": 4.034246575342466,
+      "low_star_share_pct": 21.91780821917808
+    },
+    {
+      "year_month_str": "2026-05",
+      "total_reviews": 247,
+      "avg_score": 4.016194331983805,
+      "low_star_share_pct": 21.45748987854251
+    },
+    {
+      "year_month_str": "2026-06",
+      "total_reviews": 273,
+      "avg_score": 3.5604395604395602,
+      "low_star_share_pct": 33.6996336996337
+    },
+    {
+      "year_month_str": "2026-07",
+      "total_reviews": 285,
+      "avg_score": 4.014035087719298,
+      "low_star_share_pct": 23.157894736842106
+    },
+    {
+      "year_month_str": "2026-08",
+      "total_reviews": 242,
+      "avg_score": 3.652892561983471,
+      "low_star_share_pct": 31.818181818181817
+    },
+    {
+      "year_month_str": "2026-09",
+      "total_reviews": 245,
+      "avg_score": 3.8448979591836734,
+      "low_star_share_pct": 27.755102040816325
+    },
+    {
+      "year_month_str": "2026-10",
+      "total_reviews": 82,
+      "avg_score": 3.7439024390243905,
+      "low_star_share_pct": 30.48780487804878
+    }
+  ],
+  "versions": [
+    {
+      "review_created_version": "12.19.0",
+      "review_count": 105,
+      "avg_score": 3.619047619047619,
+      "low_star_count": 36,
+      "first_date": "2026-09-21 15:40:13",
+      "last_date": "2026-10-11 11:45:45",
+      "low_star_share_pct": 34.285714285714285
+    },
+    {
+      "review_created_version": "12.15.0",
+      "review_count": 83,
+      "avg_score": 4.036144578313253,
+      "low_star_count": 19,
+      "first_date": "2026-07-09 23:44:54",
+      "last_date": "2026-10-07 11:16:13",
+      "low_star_share_pct": 22.89156626506024
+    },
+    {
+      "review_created_version": "12.4",
+      "review_count": 140,
+      "avg_score": 3.592857142857143,
+      "low_star_count": 45,
+      "first_date": "2025-08-30 09:35:46",
+      "last_date": "2026-10-07 04:41:41",
+      "low_star_share_pct": 32.142857142857146
+    },
+    {
+      "review_created_version": "12.18.1",
+      "review_count": 94,
+      "avg_score": 3.904255319148936,
+      "low_star_count": 25,
+      "first_date": "2026-09-09 09:31:26",
+      "last_date": "2026-10-05 23:33:06",
+      "low_star_share_pct": 26.595744680851062
+    },
+    {
+      "review_created_version": "12.11.2",
+      "review_count": 144,
+      "avg_score": 3.9791666666666665,
+      "low_star_count": 33,
+      "first_date": "2026-04-10 20:18:26",
+      "last_date": "2026-09-30 17:04:46",
+      "low_star_share_pct": 22.916666666666664
+    },
+    {
+      "review_created_version": "12.18.0",
+      "review_count": 65,
+      "avg_score": 4.107692307692307,
+      "low_star_count": 13,
+      "first_date": "2026-08-22 03:24:45",
+      "last_date": "2026-09-24 02:35:57",
+      "low_star_share_pct": 20.0
+    },
+    {
+      "review_created_version": "11.4.34",
+      "review_count": 181,
+      "avg_score": 3.856353591160221,
+      "low_star_count": 46,
+      "first_date": "2024-06-18 19:26:35",
+      "last_date": "2026-09-23 13:09:56",
+      "low_star_share_pct": 25.41436464088398
+    },
+    {
+      "review_created_version": "12.17.0",
+      "review_count": 141,
+      "avg_score": 3.7588652482269502,
+      "low_star_count": 42,
+      "first_date": "2026-08-07 14:13:51",
+      "last_date": "2026-09-23 04:05:53",
+      "low_star_share_pct": 29.78723404255319
+    },
+    {
+      "review_created_version": "11.0.2",
+      "review_count": 139,
+      "avg_score": 3.6043165467625897,
+      "low_star_count": 46,
+      "first_date": "2022-09-08 07:07:08",
+      "last_date": "2026-09-21 07:49:56",
+      "low_star_share_pct": 33.093525179856115
+    },
+    {
+      "review_created_version": "11.5.21",
+      "review_count": 211,
+      "avg_score": 3.838862559241706,
+      "low_star_count": 57,
+      "first_date": "2025-04-02 22:25:10",
+      "last_date": "2026-09-11 15:48:14",
+      "low_star_share_pct": 27.014218009478675
+    },
+    {
+      "review_created_version": "12.12.0",
+      "review_count": 70,
+      "avg_score": 3.9571428571428573,
+      "low_star_count": 16,
+      "first_date": "2026-04-27 20:44:41",
+      "last_date": "2026-09-09 22:18:44",
+      "low_star_share_pct": 22.857142857142858
+    },
+    {
+      "review_created_version": "12.16.0",
+      "review_count": 89,
+      "avg_score": 3.865168539325843,
+      "low_star_count": 24,
+      "first_date": "2026-07-23 04:03:58",
+      "last_date": "2026-09-08 22:32:16",
+      "low_star_share_pct": 26.96629213483146
+    },
+    {
+      "review_created_version": "12.14.1",
+      "review_count": 142,
+      "avg_score": 3.816901408450704,
+      "low_star_count": 39,
+      "first_date": "2026-06-28 07:50:29",
+      "last_date": "2026-08-26 01:43:34",
+      "low_star_share_pct": 27.464788732394368
+    },
+    {
+      "review_created_version": "11.5.5",
+      "review_count": 244,
+      "avg_score": 3.7172131147540983,
+      "low_star_count": 72,
+      "first_date": "2024-09-03 01:08:37",
+      "last_date": "2026-08-12 08:50:38",
+      "low_star_share_pct": 29.508196721311474
+    },
+    {
+      "review_created_version": "12.10.2",
+      "review_count": 100,
+      "avg_score": 3.89,
+      "low_star_count": 25,
+      "first_date": "2026-03-03 19:19:10",
+      "last_date": "2026-08-11 03:12:38",
+      "low_star_share_pct": 25.0
+    },
+    {
+      "review_created_version": "12.1.2",
+      "review_count": 258,
+      "avg_score": 3.5736434108527133,
+      "low_star_count": 86,
+      "first_date": "2025-06-18 00:05:29",
+      "last_date": "2026-08-06 03:33:34",
+      "low_star_share_pct": 33.33333333333333
+    },
+    {
+      "review_created_version": "12.13.1",
+      "review_count": 95,
+      "avg_score": 3.6842105263157894,
+      "low_star_count": 29,
+      "first_date": "2026-06-05 17:02:36",
+      "last_date": "2026-07-30 10:33:54",
+      "low_star_share_pct": 30.526315789473685
+    },
+    {
+      "review_created_version": "11.4.13",
+      "review_count": 575,
+      "avg_score": 3.6121739130434785,
+      "low_star_count": 184,
+      "first_date": "2023-12-31 17:21:24",
+      "last_date": "2026-07-21 18:33:13",
+      "low_star_share_pct": 32.0
+    },
+    {
+      "review_created_version": "12.12.3",
+      "review_count": 112,
+      "avg_score": 4.017857142857143,
+      "low_star_count": 25,
+      "first_date": "2026-05-15 22:30:42",
+      "last_date": "2026-07-09 20:19:15",
+      "low_star_share_pct": 22.321428571428573
+    },
+    {
+      "review_created_version": "11.5.20",
+      "review_count": 99,
+      "avg_score": 3.707070707070707,
+      "low_star_count": 28,
+      "first_date": "2025-03-18 12:31:53",
+      "last_date": "2026-06-26 09:13:16",
+      "low_star_share_pct": 28.28282828282828
+    }
+  ],
+  "intercept": {
+    "low_star_count": 7516,
+    "intercept_count": 151,
+    "intercept_pct": 2.01
+  },
+  "developer_response": {
+    "overall_reply_rate": 40.31,
+    "low_star_reply_rate": 54.56,
+    "high_star_reply_rate": 33.34,
+    "median_reply_delay_days": 0.8,
+    "templated_reply_pct": 18.67
+  },
+  "root_cause_ownership": {
+    "Count": {
+      "Unclear": 3889,
+      "Product bug": 3047,
+      "Ops-vendor behaviour": 506,
+      "Customer company policy": 74
+    },
+    "Share (%)": {
+      "Unclear": 51.74,
+      "Product bug": 40.54,
+      "Ops-vendor behaviour": 6.73,
+      "Customer company policy": 0.98
+    }
+  },
+  "peer_benchmark": {
+    "MoveInSync": {
+      "1. Login / onboarding / roster or shift sync": 6.27,
+      "2. Booking a ride (self-booking fails, no slots, cutoff issues)": 6.43,
+      "3. Cab/shuttle assignment and route planning (wrong route, long detours)": 4.26,
+      "4. Pickup time / ETA / live tracking accuracy": 14.77,
+      "5. Boarding and safety (OTP, driver verification, SOS, safety concerns)": 0.59,
+      "6. Cab/driver behaviour and punctuality (late, no-show, rude)": 4.88,
+      "7. App stability (crashes, slow, notifications not arriving, battery/GPS)": 7.86,
+      "8. Issue raising and support (no response, no resolution, loop through ops)": 3.06,
+      "9. Billing / policy / other": 51.89
+    },
+    "Safetrax": {
+      "1. Login / onboarding / roster or shift sync": 15.73,
+      "2. Booking a ride (self-booking fails, no slots, cutoff issues)": 2.8,
+      "3. Cab/shuttle assignment and route planning (wrong route, long detours)": 1.07,
+      "4. Pickup time / ETA / live tracking accuracy": 8.4,
+      "5. Boarding and safety (OTP, driver verification, SOS, safety concerns)": 0.4,
+      "6. Cab/driver behaviour and punctuality (late, no-show, rude)": 4.13,
+      "7. App stability (crashes, slow, notifications not arriving, battery/GPS)": 18.13,
+      "8. Issue raising and support (no response, no resolution, loop through ops)": 1.73,
+      "9. Billing / policy / other": 47.6
+    },
+    "Routematic": {
+      "1. Login / onboarding / roster or shift sync": 4.96,
+      "2. Booking a ride (self-booking fails, no slots, cutoff issues)": 1.18,
+      "3. Cab/shuttle assignment and route planning (wrong route, long detours)": 4.49,
+      "4. Pickup time / ETA / live tracking accuracy": 14.66,
+      "5. Boarding and safety (OTP, driver verification, SOS, safety concerns)": 0.24,
+      "6. Cab/driver behaviour and punctuality (late, no-show, rude)": 5.2,
+      "7. App stability (crashes, slow, notifications not arriving, battery/GPS)": 20.09,
+      "8. Issue raising and support (no response, no resolution, loop through ops)": 2.6,
+      "9. Billing / policy / other": 46.57
+    }
+  }
+}

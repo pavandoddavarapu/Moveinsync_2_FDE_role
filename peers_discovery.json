@@ -1,0 +1,92 @@
+{
+  "in.mtap.iincube.safetrax.commuter": {
+    "title": "Safetrax Commuter",
+    "appId": "in.mtap.iincube.safetrax.commuter",
+    "score": 4.719568,
+    "ratings": 24144,
+    "reviews": 1645,
+    "histogram": [
+      922,
+      149,
+      310,
+      2006,
+      20753
+    ],
+    "installs": "500,000+"
+  },
+  "in.mtap.iincube.safetrax.driver": {
+    "title": "Safetrax Driver",
+    "appId": "in.mtap.iincube.safetrax.driver",
+    "score": 4.880882,
+    "ratings": 23505,
+    "reviews": 1076,
+    "histogram": [
+      308,
+      89,
+      268,
+      757,
+      22079
+    ],
+    "installs": "100,000+"
+  },
+  "com.nivaata.routematic.tripsheet": {
+    "title": "Routematic - Driver App",
+    "appId": "com.nivaata.routematic.tripsheet",
+    "score": 4.521898,
+    "ratings": 8016,
+    "reviews": 1619,
+    "histogram": [
+      652,
+      126,
+      282,
+      272,
+      6679
+    ],
+    "installs": "500,000+"
+  },
+  "com.nivaata.routematicintune": {
+    "title": "Routematic for Intune",
+    "appId": "com.nivaata.routematicintune",
+    "score": 4.451613,
+    "ratings": 32,
+    "reviews": 9,
+    "histogram": [
+      2,
+      0,
+      2,
+      5,
+      22
+    ],
+    "installs": "5,000+"
+  },
+  "com.whistledrive.wdsupervisorapp": {
+    "title": "WhistleDrive Supervisor",
+    "appId": "com.whistledrive.wdsupervisorapp",
+    "score": 4.59375,
+    "ratings": 32,
+    "reviews": 2,
+    "histogram": [
+      2,
+      0,
+      2,
+      1,
+      27
+    ],
+    "installs": "500+"
+  },
+  "com.whistledrive.logisticsdriver": {
+    "title": "WhistleDrive EL Driver",
+    "appId": "com.whistledrive.logisticsdriver",
+    "score": 4.909091,
+    "ratings": 22,
+    "reviews": 5,
+    "histogram": [
+      0,
+      0,
+      1,
+      0,
+      21
+    ],
+    "installs": "500+"
+  }
+}

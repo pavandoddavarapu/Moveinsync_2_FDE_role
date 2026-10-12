@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-10-12T18:02:24.773023+00:00",
+    "store_score": 4.6388,
+    "total_ratings": 114880,
+    "current_version": "12.19.0",
+    "avg_30d": 3.7737,
+    "avg_prior_90d": 3.7621,
+    "delta": 0.0116,
+    "alert": false,
+    "low_star_share_30d_pct": 30.04,
+    "reply_rate_low_star": 54.56
+  }
+]

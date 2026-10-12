@@ -1,0 +1,20 @@
+{
+  "app_id": "com.moveinsync.ets",
+  "app_name": "MoveInSync",
+  "country": "in",
+  "lang": "en",
+  "alert_threshold_drop": 0.1,
+  "cache_path": "data/classified_reviews.csv",
+  "snapshots_path": "data/snapshot_history.json",
+  "output_report_path": "output/report.html",
+  "competitor_apps": [
+    {
+      "name": "Safetrax",
+      "app_id": "in.mtap.iincube.safetrax.commuter"
+    },
+    {
+      "name": "Routematic",
+      "app_id": "com.routematic.employee"
+    }
+  ]
+}
